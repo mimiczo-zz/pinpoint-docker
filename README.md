@@ -1,5 +1,5 @@
 # Pinpoint-docker
-Docker for Pinpoint. You can see the repository on [mimiczo/pinpoint](https://hub.docker.com/r/mimiczo/pinpoint/).
+Docker for Pinpoint. You can see the repository on [mimiczo/pinpoint](https://hub.docker.com/r/mimiczo/pinpoint-docker).
 
 # About
 
@@ -47,5 +47,5 @@ for Details, please refer to the [quick-start guide](https://github.com/naver/pi
 
 # License
 
-Copyright (c) mimiczo. [LICENSE.txt](https://github.com/mimiczo/pinpoint-docker/LICENSE.txt).
+Copyright (c) mimiczo. [LICENSE.txt](https://github.com/mimiczo/pinpoint-docker/license.txt).
 Dockerfile references from [yous/pinpoint](https://hub.docker.com/r/yous/pinpoint).
