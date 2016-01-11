@@ -16,7 +16,7 @@ RUN add-apt-repository ppa:webupd8team/java -y && apt-get update
 RUN echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | /usr/bin/debconf-set-selections
 RUN apt-get -y install oracle-java8-installer
 RUN \
-  curl http://www.us.apache.org/dist/maven/maven-3/3.3.3/binaries/apache-maven-3.3.3-bin.tar.gz | tar xz -C /usr/share/ && \
+  curl http://www.apache.org/dist/maven/maven-3/3.3.3/binaries/apache-maven-3.3.3-bin.tar.gz | tar xz -C /usr/share/ && \
   ln -s /usr/share/apache-maven-3.3.3/bin/mvn /usr/bin/mvn
 
 RUN useradd pinpoint -m
