@@ -1,5 +1,5 @@
 # Pinpoint-docker
-Docker for Pinpoint. You can see the repository on [mimiczo/pinpoint](https://hub.docker.com/r/mimiczo/pinpoint-docker).
+Docker for Pinpoint. You can see the repository on [mimiczo/pinpoint-docker](https://hub.docker.com/r/mimiczo/pinpoint-docker).
 
 # About
 
@@ -12,7 +12,7 @@ Docker for Pinpoint. You can see the repository on [mimiczo/pinpoint](https://hu
 # Installation
 
 ```
-    docker pull mimiczo/pinpoint
+    docker pull mimiczo/pinpoint-docker
 ```
 
 # Usage Test Application Agent
