@@ -19,7 +19,7 @@ Docker for Pinpoint. You can see the repository on [mimiczo/pinpoint-docker](htt
 
 ```
    docker run -i -t -p 28080:28080 -p 28081:28081 -p 28082:28082 \
-    --cap-add SYS_PTRACE --security-opt apparmor:unconfined mimiczo/pinpoint:1.5.1 bash
+    --cap-add SYS_PTRACE --security-opt apparmor:unconfined mimiczo/pinpoint-docker bash
 ```
 
 # Usage External Application Agent
@@ -27,7 +27,7 @@ Docker for Pinpoint. You can see the repository on [mimiczo/pinpoint-docker](htt
 ```
    docker run -i -t -p 28080:28080 \
     -p 29994:29994 -p 29995:29995/udp -p 29996:29996/udp \
-    --cap-add SYS_PTRACE --security-opt apparmor:unconfined mimiczo/pinpoint:1.5.1 bash
+    --cap-add SYS_PTRACE --security-opt apparmor:unconfined mimiczo/pinpoint-docker bash
 ```
 
 # Start Pinpoint Daemons
